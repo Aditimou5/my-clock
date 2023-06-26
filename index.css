@@ -1,0 +1,53 @@
+body{
+   background-color: #e8ecef;
+}
+#clock{
+    background-image: url(clkpic.jpg) ;
+    background-repeat: no-repeat;
+    height: 38vw;
+    width:40vw;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 10vw;
+    box-shadow: 2px;
+    opacity:0.9
+}
+#hr ,#min,#ss{
+    position: absolute;
+    background-color:rgb(31, 147, 196);
+    width:0.4vw;
+    height:4.4vw;
+    transform-origin: bottom;
+}
+#hr{
+    left: 19.6vw;
+    top:12.2vw;
+    border-radius: 7px;
+    background-color:rgb(31, 147, 196);
+}
+#min{
+    top: 12.2vw;
+    left: 19.6vw;
+    border-radius: 10px;
+    width: 0.3vw;
+    height:4.5 vw;
+  
+}
+#ss{
+    left: 19.6vw;
+    top: 11.9vw;
+    width: 0.2vw;
+    height: 4.7vw;
+    border-radius: 30px;
+    
+}
+#round{
+    position: absolute;
+    width:1.3vw;
+    height:1.3vw;
+    background-color: rgb(13, 14, 15);
+    border-radius: 50%;
+    left: 19vw;
+    top:15.8vw;
+}
